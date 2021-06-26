@@ -17,7 +17,7 @@ const json = `
 `;
 
 const expected = `
-declare namespace Project {
+export declare namespace Project {
     export interface IRootObject {
         items: IItemsItem[];
     }
